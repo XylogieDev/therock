@@ -1,0 +1,42 @@
+body {
+    background-image: linear-gradient(to right, #000000, #434343);
+}
+
+h1.title {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    width: 300px;
+    font-size: 30px;
+    padding: auto;
+}
+
+div.top {
+    background-image: url(rock.jpg);
+    background-color: #cccccc;
+}
+
+h2.ye {
+    background-color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    color: yellow;
+    text-align: justify;
+    white-space: nowrap;
+}
+
+h1 {
+    color: white;
+}
+h2 {
+    color: white
+}
+p {
+    color: white;
+}
+
+img.gifrock {
+    border-radius: 50%;
+}
