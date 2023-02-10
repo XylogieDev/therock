@@ -38,5 +38,26 @@ p {
 }
 
 img.gifrock {
+    position: relative;
     border-radius: 50%;
+    width: 500px;
+    height: 500px;
+}
+
+img.rockhover {
+    position: absolute;
+    border-radius: 50%;
+    left: 10px;
+    width: 500px;
+    height: 500px;
+}
+
+img.rockhover {
+    opacity: 0;
+    transition: 0.3s;
+}
+
+img.rockhover:hover {
+    opacity: 1;
+    transition: 0.3s;
 }
